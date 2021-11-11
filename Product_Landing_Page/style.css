@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    scroll-behavior: smooth;
+}
+
+/* All media query */
+@media screen and (max-width:878px){
+    #container h1{
+        font-size: 40px;
+    }
+}
+
+/* Utility */
+.h-primary{
+    font-size: 60px;
+}
+.h-secondary{
+    font-size:30px;
+    
+}
+.h-tertiary{
+    font-size: 23px;
+}
+/* All before section */
+#header::before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    width: 100%;
+    height:50px;
+    opacity: 0.6;
+}
+
+
+/* ALl hover cases */
+.nav-link:hover{
+    background-color: black;
+
+
+}
+
+/* Navigation */
+#header{
+    
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+
+}
+#nav-bar ul{
+    display: flex;
+}
+.nav-link{
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+#nav-bar ul li{
+
+    padding: 0px 23px;
+    list-style: none;
+}
+/* Container */
+#container{
+    margin-top: 116px;
+}
+#container h1 {
+    text-align: center;
+}
+
+.video {
+    
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin: 23px 0px;
+    justify-content: center;
+}
+
+#video {
+    /* border:2px solid green; */
+    width: 1000px;
+}
